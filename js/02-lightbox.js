@@ -5,7 +5,7 @@ import { galleryItems } from "./gallery-items.js";
 
 const galleryListEl = document.querySelector(".gallery");
 
-console.log(galleryListEl);
+// console.log(galleryListEl);
 
 const imageForGalleryList = galleryItems
   .map(

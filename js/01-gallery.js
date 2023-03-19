@@ -5,7 +5,7 @@ import { galleryItems } from "./gallery-items.js";
 
 const galleryListEl = document.querySelector(".gallery");
 
-console.log(galleryListEl);
+// console.log(galleryListEl);
 
 const imageForGalleryList = galleryItems
   .map(
@@ -33,7 +33,7 @@ function selectedImage(event) {
 
   event.preventDefault();
 
-  console.log(event.target);
+  // console.log(event.target);
   onOpenModalImage();
 }
 
